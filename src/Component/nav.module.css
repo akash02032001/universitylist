@@ -4,6 +4,14 @@
     box-sizing: border-box;
 
 }
+body{
+    height: 100vh;
+    width: 100%;
+    background: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rN0W64K4ipau8gxv/videoblocks-earth-globe-with-transparent-night-map-of-earth-futuristic-technology-animation-of-digital-world-with-light-effects-on-deep-blue-gradient-background_sb5mx_llb_thumbnail-1080_01.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}      
 button{
     padding: 10px;
     margin-right: 20px;
@@ -83,4 +91,13 @@ body{
     justify-content: center;
     padding: 10px;
     border: 5px double black;
+}
+div.ul{
+    margin: 4px 4px;
+    padding: 4px;
+    background-color: rgb(196, 200, 200);
+    width: 700px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
